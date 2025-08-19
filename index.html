@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H2YO at Playtech</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0F172A; /* slate-900 */
+            color: #E2E8F0; /* slate-200 */
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #38BDF8, #A78BFA);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .glassmorphism {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        /* Accordion styles */
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }
+        .accordion-button.active .accordion-arrow {
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <div class="container mx-auto px-4 py-8 md:py-16">
+
+        <!-- Header -->
+        <header class="text-center mb-16 md:mb-24">
+            <h1 class="text-4xl md:text-6xl font-black tracking-tighter mb-4">
+                Your Day, <span class="gradient-text">Your Fuel.</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-400 max-w-3xl mx-auto">
+                At Playtech, your next power-up is just a tap away. We're making healthy choices easy, so you can focus on what you do best.
+            </p>
+        </header>
+
+        <!-- Main Content Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+            <!-- Card 1: Choice Architecture -->
+            <div class="glassmorphism rounded-2xl p-8">
+                <h2 class="text-2xl font-bold mb-4">The Healthy Choice is Now the Easy Choice</h2>
+                <p class="text-slate-400">
+                    We get it. Long days, tight deadlines. Grabbing a sugary drink is easy. That's why we've introduced H2YO—a system designed around <span class="font-semibold text-white">Choice Architecture</span>. It's about making awesome, healthy options so convenient and customizable that they become your natural go-to.
+                </p>
+            </div>
+
+            <!-- Card 2: Diverse Preferences -->
+            <div class="glassmorphism rounded-2xl p-8">
+                <h2 class="text-2xl font-bold mb-4">For Every Player</h2>
+                <p class="text-slate-400">
+                    Need a custom drink or just plain water? H2YO lets you personalize everything. And because we know you like it your way, every drink—or just water—can be <span class="font-semibold text-white">ambient, cold, or carbonated</span>. It's hydration that respects your routine.
+                </p>
+            </div>
+
+            <!-- Card 3: YoCoins -->
+            <div class="glassmorphism rounded-2xl p-8">
+                <h2 class="text-2xl font-bold mb-4">💎 Meet YoCoins</h2>
+                <p class="text-slate-400">
+                    Think of it like Mobilly, but for drinks. Top up your account, get discounts for larger amounts, and then just tap to create your drink. Your account also lets you track consumption to meet hydration goals, give feedback, and join our healthy people and planet ecosystem.
+                </p>
+            </div>
+
+            <!-- Card 4: Data & Privacy -->
+            <div class="glassmorphism rounded-2xl p-8">
+                <h2 class="text-2xl font-bold mb-4">Your Data, Your Control 🛡️</h2>
+                <p class="text-slate-400">
+                    Your privacy is paramount. In line with GDPR, we only save your mobile number to manage your account—no names or other personal details. A simple cookie recognizes you on your next visit. <span class="font-semibold text-white">Your data is never shared, and you can delete your account anytime.</span>
+                </p>
+            </div>
+
+            <!-- Card 5: The Future is Fun -->
+            <div class="glassmorphism rounded-2xl p-8">
+                <h2 class="text-2xl font-bold mb-4">Get Ready to Play 🚀</h2>
+                <p class="text-slate-400">
+                    This is just the beginning. We'll help you track how much you drink, so you can set hydration goals and monitor your wellness metrics. Get ready for team-based competitions, leaderboards, and personal achievements. Earn points, unlock rewards, and maybe even win some bragging rights.
+                </p>
+            </div>
+            
+            <!-- Card 6: Our Mission -->
+            <div class="glassmorphism rounded-2xl p-8">
+                 <h2 class="text-2xl font-bold mb-4">Good for You, Good for the Planet 🌍</h2>
+                <p class="text-slate-400 mb-4">
+                    Our mission is simple: improve the health of people and the planet. Sugary drinks are at the root of many health issues, and over 90% of plastic is never recycled.
+                </p>
+                <p class="font-semibold text-white">
+                    Let's build a "bring your own bottle" culture and cut single-use plastic out of the game.
+                </p>
+            </div>
+        </div>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="mt-16 md:mt-24 max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-8">Got Questions? We've Got Answers.</h2>
+            <div class="space-y-4">
+                <!-- FAQ Item Template -->
+                <div class="glassmorphism rounded-lg">
+                    <button class="accordion-button w-full flex justify-between items-center text-left p-5 font-semibold">
+                        <span>What makes ULTRASORB™ delivery more effective?</span>
+                        <svg class="accordion-arrow w-5 h-5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="p-5 pt-0 text-slate-300">
+                            Our proprietary ULTRASORB™ technology combines Microdosing (precise, small doses) and Liposomal delivery (vitamins enclosed in protective lipid spheres) to optimize absorption and enhance bioavailability.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="glassmorphism rounded-lg">
+                    <button class="accordion-button w-full flex justify-between items-center text-left p-5 font-semibold">
+                        <span>What are the benefits of SMARTDOSE™ caffeine?</span>
+                        <svg class="accordion-arrow w-5 h-5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="p-5 pt-0 text-slate-300">
+                            SMARTDOSE™ offers calibrated caffeine microdosing (10-15mg per serving) for stable, sustained energy without jitters or crashes. It's sleep-cycle friendly and gives you personal control over your caffeine intake throughout the day.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glassmorphism rounded-lg">
+                    <button class="accordion-button w-full flex justify-between items-center text-left p-5 font-semibold">
+                        <span>What is NEOSWEET™?</span>
+                        <svg class="accordion-arrow w-5 h-5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="p-5 pt-0 text-slate-300">
+                           NEOSWEET™ combines premium xylitol and stevia for a natural sweetness that maintains stable blood sugar levels, supports a healthy bacterial balance, and helps reduce sugar cravings. It contains no artificial sweeteners.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="glassmorphism rounded-lg">
+                    <button class="accordion-button w-full flex justify-between items-center text-left p-5 font-semibold">
+                        <span>I already drink coffee - why should I use H2YO?</span>
+                        <svg class="accordion-arrow w-5 h-5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="p-5 pt-0 text-slate-300">
+                           H2YO is a perfect complement. Our small caffeine doses (6-13mg vs. 100mg in coffee) support stable afternoon energy without disrupting sleep. Plus, you get complete hydration with essential vitamins and minerals. 95% of coffee drinkers report better energy stability with H2YO.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glassmorphism rounded-lg">
+                    <button class="accordion-button w-full flex justify-between items-center text-left p-5 font-semibold">
+                        <span>Can you overdose on the vitamins?</span>
+                        <svg class="accordion-arrow w-5 h-5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="p-5 pt-0 text-slate-300">
+                           Our dosages are carefully calibrated to be well within safe daily limits. Water-soluble vitamins (B, C) are naturally eliminated if in excess. Fat-soluble vitamins (D, K) and minerals are dosed carefully to prevent accumulation. It's always best to consult a healthcare provider if you plan on taking other supplements.
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="glassmorphism rounded-lg">
+                    <button class="accordion-button w-full flex justify-between items-center text-left p-5 font-semibold">
+                        <span>What's in an H2YO drink? (Clean Label Policy)</span>
+                        <svg class="accordion-arrow w-5 h-5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="p-5 pt-0 text-slate-300">
+                           We focus on clean, purposeful ingredients: plant-based flavors, NEOSWEET™, coffee-derived caffeine, our ULTRASORB™ liposomal vitamin system, and essential minerals. We use minimal preservatives (and are working towards zero) and have a strict no-artificial-additives policy.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const accordionButtons = document.querySelectorAll('.accordion-button');
+
+            accordionButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const content = button.nextElementSibling;
+                    button.classList.toggle('active');
+
+                    if (content.style.maxHeight) {
+                        content.style.maxHeight = null;
+                    } else {
+                        content.style.maxHeight = content.scrollHeight + "px";
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
