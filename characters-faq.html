@@ -29,12 +29,12 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
-        .dialogue-bubble {
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
         .logo-white {
             filter: brightness(0) invert(1);
+        }
+        .answer-bubble {
+            background-color: #F43F8A;
+            color: #ffffff;
         }
     </style>
 </head>
@@ -51,57 +51,70 @@
 
         <!-- Header Section -->
         <header class="p-6 pt-0 text-center">
-            <h1 class="text-4xl font-black uppercase tracking-tighter leading-none">
-                The Vending Machine is Over.
+            <h1 class="text-4xl font-black uppercase tracking-tighter leading-none gradient-text">
+                Your Questions, Answered.
             </h1>
-            <h2 class="text-2xl font-bold mt-2 gradient-text">Meet the Natural Soda You Create.</h2>
         </header>
 
         <!-- Main Content -->
         <main class="flex-grow p-4 flex flex-col justify-start space-y-4">
             
-            <!-- Character 1: Anna -->
-            <div class="flex items-center gap-3">
-                <img src="assets/anna-avatar.png" alt="Anna the Croupier" class="w-24 h-24 rounded-full border-2 border-cyan-400 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/96x96/0891B2/FFFFFF?text=A';">
-                <div class="dialogue-bubble text-sm rounded-lg p-3 flex-1 rounded-bl-none">
-                    <p>"No more sugar crashes during my shift. Just steady focus."</p>
+            <!-- Q&A 1 -->
+            <div class="flex items-start gap-3">
+                <img src="assets/anna-avatar.png" alt="Anna the Croupier" class="w-16 h-16 rounded-full border-2 border-cyan-400 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/64x64/0891B2/FFFFFF?text=A';">
+                <div class="flex-1">
+                    <p class="font-semibold text-cyan-300">"Will this make me jittery?"</p>
+                    <div class="answer-bubble text-sm rounded-lg p-2 mt-1">
+                        <p><strong>Nope.</strong> We micro-dose caffeine for a smooth lift, not shaky vibes.</p>
+                    </div>
                 </div>
             </div>
 
-            <!-- Character 2: Lukas -->
-            <div class="flex items-center gap-3 flex-row-reverse">
-                <img src="assets/lukas-avatar.png" alt="Lukas the Presenter" class="w-24 h-24 rounded-full border-2 border-lime-400 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/96x96/65A30D/FFFFFF?text=L';">
-                <div class="dialogue-bubble text-sm rounded-lg p-3 flex-1 rounded-br-none text-right">
-                    <p>"Micro-dosed energy means no jitters and better sleep. It's a game-changer."</p>
+            <!-- Q&A 2 -->
+            <div class="flex items-start gap-3">
+                <img src="assets/anna-avatar.png" alt="Anna the Croupier" class="w-16 h-16 rounded-full border-2 border-cyan-400 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/64x64/0891B2/FFFFFF?text=A';">
+                <div class="flex-1">
+                    <p class="font-semibold text-cyan-300">"Is it natural?"</p>
+                    <div class="answer-bubble text-sm rounded-lg p-2 mt-1">
+                        <p><strong>Yup.</strong> Real flavors and botanicals. Zero sugar. Tastes like a treat, acts like water.</p>
+                    </div>
                 </div>
             </div>
 
-            <!-- Character 3: Priya -->
-            <div class="flex items-center gap-3">
-                <img src="assets/priya-avatar.png" alt="Priya the Shift Manager" class="w-24 h-24 rounded-full border-2 border-pink-400 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/96x96/EC4899/FFFFFF?text=P';">
-                <div class="dialogue-bubble text-sm rounded-lg p-3 flex-1 rounded-bl-none">
-                    <p>"It's like Mobilly for drinks! Super fast and half the price of the vending machine."</p>
+            <!-- Q&A 3 -->
+            <div class="flex items-start gap-3">
+                <img src="assets/anna-avatar.png" alt="Anna the Croupier" class="w-16 h-16 rounded-full border-2 border-cyan-400 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/64x64/0891B2/FFFFFF?text=A';">
+                <div class="flex-1">
+                    <p class="font-semibold text-cyan-300">"Gym or game break?"</p>
+                    <div class="answer-bubble text-sm rounded-lg p-2 mt-1">
+                        <p><strong>Both.</strong> Light, refreshing, and made to sip while you play or grind.</p>
+                    </div>
                 </div>
             </div>
 
-            <!-- Intro Offer Section -->
-            <section class="bg-gradient-to-r from-pink-500 to-purple-500 rounded-xl p-4 text-center mt-4">
-                <h2 class="text-xl font-bold">Special Intro Offer!</h2>
-                <p class="text-lg mt-1">Enjoy FREE DRINKS until 24/08.</p>
-                <p class="text-xs mt-2">No cost to you. Just scan and enjoy.</p>
-            </section>
+            <!-- Q&A 4 -->
+            <div class="flex items-start gap-3">
+                <img src="assets/anna-avatar.png" alt="Anna the Croupier" class="w-16 h-16 rounded-full border-2 border-cyan-400 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/64x64/0891B2/FFFFFF?text=A';">
+                <div class="flex-1">
+                    <p class="font-semibold text-cyan-300">"What about calories?"</p>
+                    <div class="answer-bubble text-sm rounded-lg p-2 mt-1">
+                        <p><strong>Basically none.</strong> Sweet without the sugar crash. No cravings.</p>
+                    </div>
+                </div>
+            </div>
+
         </main>
 
         <!-- Footer / Call to Action -->
-        <footer class="p-4 text-center bg-black/20">
-            <h3 class="text-lg font-bold">Ready to Mix Your Own?</h3>
+        <footer class="p-4 text-center bg-black/20 mt-auto">
+            <h3 class="text-lg font-bold">Ready to Try It?</h3>
             <div class="mt-2 bg-white p-2 inline-block rounded-lg">
                 <!-- Placeholder for QR Code -->
                 <div class="w-24 h-24 bg-gray-300 flex items-center justify-center text-black text-xs font-mono">
                     SCAN ME
                 </div>
             </div>
-            <p class="mt-2 text-xs font-semibold tracking-wider text-slate-400">YoCoin ordering starts Monday 25/08</p>
+            <p class="mt-2 text-xs font-semibold tracking-wider text-slate-400">#H2YOFuel #MadeInLatvia</p>
         </footer>
 
     </div>
