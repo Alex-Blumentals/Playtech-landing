@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>H2YO at Playtech</title>
+    <title>H2YO at Playtech // Your Perfect Mix</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
     <style>
@@ -17,188 +17,118 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
-        .glassmorphism {
+        .dialogue-bubble {
             background: rgba(255, 255, 255, 0.05);
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
             border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-        /* Accordion styles */
-        .accordion-content {
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.3s ease-out;
-        }
-        .accordion-button.active .accordion-arrow {
-            transform: rotate(180deg);
-        }
-        /* Feedback Star styles */
-        .star-rating svg {
-            cursor: pointer;
-            transition: color 0.2s ease-in-out;
         }
     </style>
 </head>
 <body class="antialiased">
 
-    <!-- Logos Navigation -->
     <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
-        <!-- H2YO Logo -->
         <img src="/assets/h2yo logo.png" alt="H2YO Logo" class="h-8 w-auto" onerror="this.onerror=null;this.src='https://placehold.co/100x40/0F172A/A78BFA?text=h2yo+logo';">
-        <!-- Playtech Logo -->
         <img src="/assets/playtech-logo.png" alt="Playtech Logo" class="h-8 w-auto" onerror="this.onerror=null;this.src='https://placehold.co/120x40/0F172A/38BDF8?text=Playtech+logo';">
     </nav>
 
     <div class="container mx-auto px-4 py-8 md:py-12">
 
-        <!-- Header -->
-        <header class="text-center mb-16 md:mb-24">
-            <h1 class="text-4xl md:text-6xl font-black tracking-tighter mb-4">
-                Your Day, <span class="gradient-text">Your Fuel.</span>
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-6xl font-black tracking-tighter">
+                The Vending Machine is Over. <br> <span class="gradient-text">Meet the Natural Soda You Create.</span>
             </h1>
-            <p class="text-lg md:text-xl text-slate-400 max-w-3xl mx-auto">
-                At Playtech, your next power-up is just a tap away. We're making healthy choices easy, so you can focus on what you do best.
-            </p>
         </header>
 
-        <!-- Main Content Grid -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="max-w-3xl mx-auto space-y-8">
 
-            <!-- Card 1: Choice Architecture -->
-            <div class="glassmorphism rounded-2xl p-8">
-                <h2 class="text-2xl font-bold mb-4">The Healthy Choice is Now the Easy Choice</h2>
-                <p class="text-slate-400">
-                    We get it. Long days, tight deadlines. Grabbing a sugary drink is easy. That's why we've introduced H2YO—a system designed around <span class="font-semibold text-white">Choice Architecture</span>. It's about making awesome, healthy options so convenient and customizable that they become your natural go-to.
-                </p>
+            <div class="flex items-start gap-4">
+                <img src="/assets/anna-avatar.png" alt="Anna the Croupier" class="rounded-full w-16 h-16 md:w-20 md:h-20 border-2 border-indigo-400 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/80x80/4F46E5/FFFFFF?text=A';">
+                <div class="dialogue-bubble rounded-xl rounded-tl-none p-4 flex-1">
+                    <p class="font-bold text-indigo-300">Anna // Croupier</p>
+                    <p class="text-slate-300">Another 4-hour shift. I can't risk a sugar crash from a regular soda, but I need something more than just water to stay sharp at the table.</p>
+                </div>
             </div>
 
-            <!-- Card 2: Diverse Preferences -->
-            <div class="glassmorphism rounded-2xl p-8">
-                <h2 class="text-2xl font-bold mb-4">For Every Player</h2>
-                <p class="text-slate-400">
-                    Need a custom drink or just plain water? H2YO lets you personalize everything. And because we know you like it your way, every drink—or just water—can be <span class="font-semibold text-white">ambient, cold, or carbonated</span>. It's hydration that respects your routine.
-                </p>
-            </div>
-
-            <!-- Card 3: YoCoins -->
-            <div class="glassmorphism rounded-2xl p-8">
-                <h2 class="text-2xl font-bold mb-4">💎 Meet YoCoins</h2>
-                <p class="text-slate-400">
-                    Think of it like Mobilly, but for drinks. Top up your account, get discounts for larger amounts, and then just tap to create your drink. Your account also lets you track consumption to meet hydration goals, give feedback, and join our healthy people and planet ecosystem.
-                </p>
-            </div>
-
-            <!-- Card 4: Data & Privacy -->
-            <div class="glassmorphism rounded-2xl p-8">
-                <h2 class="text-2xl font-bold mb-4">Your Data, Your Control 🛡️</h2>
-                <p class="text-slate-400">
-                    Your privacy is paramount. In line with GDPR, we only save your mobile number to manage your account—no names or other personal details. A simple cookie recognizes you on your next visit. <span class="font-semibold text-white">Your data is never shared, and you can delete your account anytime.</span>
-                </p>
-            </div>
-
-            <!-- Card 5: The Future is Fun -->
-            <div class="glassmorphism rounded-2xl p-8">
-                <h2 class="text-2xl font-bold mb-4">Get Ready to Play 🚀</h2>
-                <p class="text-slate-400">
-                    This is just the beginning. We'll help you track how much you drink, so you can set hydration goals and monitor your wellness metrics. Get ready for team-based competitions, leaderboards, and personal achievements. Earn points, unlock rewards, and maybe even win some bragging rights.
-                </p>
+            <div class="flex items-start gap-4 flex-row-reverse">
+                <img src="/assets/lukas-avatar.png" alt="Lukas the Presenter" class="rounded-full w-16 h-16 md:w-20 md:h-20 border-2 border-emerald-400 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/80x80/10B981/FFFFFF?text=L';">
+                <div class="dialogue-bubble rounded-xl rounded-tr-none p-4 flex-1">
+                    <p class="font-bold text-emerald-300 text-right">Lukas // Presenter</p>
+                    <p class="text-slate-300 text-right">Have you tried that new H2YO dispenser? I just made a sparkling water with a boost of Vitamin C + Zinc and a hint of flavor. No sugar, no weird aftertaste. Perfect for staying fresh on camera.</p>
+                </div>
             </div>
             
-            <!-- Card 6: Our Mission -->
-            <div class="glassmorphism rounded-2xl p-8">
-                 <h2 class="text-2xl font-bold mb-4">Good for You, Good for the Planet 🌍</h2>
-                <p class="text-slate-400 mb-4">
-                    Our mission is simple: improve the health of people and the planet. Sugary drinks are at the root of many health issues, and over 90% of plastic is never recycled.
-                </p>
-                <p class="font-semibold text-white">
-                    Let's build a "bring your own bottle" culture and cut single-use plastic out of the game.
-                </p>
+            <div class="flex items-start gap-4">
+                <img src="/assets/priya-avatar.png" alt="Priya the Shift Manager" class="rounded-full w-16 h-16 md:w-20 md:h-20 border-2 border-pink-400 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/80x80/EC4899/FFFFFF?text=P';">
+                <div class="dialogue-bubble rounded-xl rounded-tl-none p-4 flex-1">
+                    <p class="font-bold text-pink-300">Priya // Shift Manager</p>
+                    <p class="text-slate-300">Exactly! You can **make it yours**. Add vitamins, a bit of natural energy... whatever you need. Plus, it's about half the price of a vending machine energy drink, so it doesn't have to be a rare treat. It's paid with YoCoins, so it's super fast.</p>
+                </div>
             </div>
+
         </div>
 
-        <!-- FAQ Section -->
+        <section class="text-center mt-16">
+            <h2 class="text-3xl font-bold">Ready to Mix Your Own?</h2>
+            <p class="text-slate-400 mt-2">Create an account, top up your YoCoins, and discover your perfect drink.</p>
+            <a href="#faq" class="mt-8 inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-full px-6 py-3 shadow-lg transition-transform transform hover:scale-105">
+                See How It Works (FAQ)
+            </a>
+        </section>
+
+
         <section id="faq" class="mt-16 md:mt-24 max-w-4xl mx-auto">
-            <h2 class="text-3xl font-bold text-center mb-8">Got Questions? We've Got Answers.</h2>
+            <h2 class="text-3xl font-bold text-center mb-8">The Details // How It Works</h2>
             <div class="space-y-4">
-                <!-- FAQ Items -->
-                <div class="glassmorphism rounded-lg">
+                 <div class="dialogue-bubble rounded-lg">
                     <button class="accordion-button w-full flex justify-between items-center text-left p-5 font-semibold">
-                        <span>What makes ULTRASORB™ delivery more effective?</span>
+                        <span>Is it possible to get too many vitamins?</span>
                         <svg class="accordion-arrow w-5 h-5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                     </button>
                     <div class="accordion-content">
                         <div class="p-5 pt-0 text-slate-300">
-                            Our proprietary ULTRASORB™ technology combines Microdosing (precise, small doses) and Liposomal delivery (vitamins enclosed in protective lipid spheres) to optimize absorption and enhance bioavailability.
+                           We get this question a lot! Our dosages are carefully calibrated to be well within safe daily limits. For water-soluble vitamins like C, any excess is naturally flushed out. For others like D and K, the amounts per drink are designed for safe, daily consumption.
                         </div>
                     </div>
                 </div>
-                <div class="glassmorphism rounded-lg">
+                <div class="dialogue-bubble rounded-lg">
                     <button class="accordion-button w-full flex justify-between items-center text-left p-5 font-semibold">
-                        <span>What are the benefits of SMARTDOSE™ caffeine?</span>
+                        <span>What's the deal with the sweetener (NEOSWEET™)?</span>
                         <svg class="accordion-arrow w-5 h-5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                     </button>
                     <div class="accordion-content">
                         <div class="p-5 pt-0 text-slate-300">
-                            SMARTDOSE™ offers calibrated caffeine microdosing (10-15mg per serving) for stable, sustained energy without jitters or crashes. It's sleep-cycle friendly and gives you personal control over your caffeine intake throughout the day.
-                        </div>
-                    </div>
-                </div>
-                <div class="glassmorphism rounded-lg">
-                    <button class="accordion-button w-full flex justify-between items-center text-left p-5 font-semibold">
-                        <span>What is NEOSWEET™?</span>
-                        <svg class="accordion-arrow w-5 h-5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                    </button>
-                    <div class="accordion-content">
-                        <div class="p-5 pt-0 text-slate-300">
-                           NEOSWEET™ uses a natural blend of xylitol and stevia for a clean, sweet taste without spiking your blood sugar. Many artificial sweeteners can actually trigger more cravings because they trick your body with sweetness but no calories. NEOSWEET™ is different—it helps reduce those cravings and supports a healthy bacterial balance. Zero artificial stuff.
-                        </div>
-                    </div>
-                </div>
-                <div class="glassmorphism rounded-lg">
-                    <button class="accordion-button w-full flex justify-between items-center text-left p-5 font-semibold">
-                        <span>I already drink coffee - why should I use H2YO?</span>
-                        <svg class="accordion-arrow w-5 h-5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                    </button>
-                    <div class="accordion-content">
-                        <div class="p-5 pt-0 text-slate-300">
-                           H2YO is a perfect complement. Our small caffeine doses (6-13mg vs. 100mg in coffee) support stable afternoon energy without disrupting sleep. Plus, you get complete hydration with essential vitamins and minerals. 95% of coffee drinkers report better energy stability with H2YO.
+                           It's a natural blend of xylitol and stevia for a clean taste without spiking your blood sugar. Artificial sweeteners can trigger more cravings because they trick your body with sweetness but no calories. NEOSWEET™ helps reduce those cravings. Zero artificial stuff.
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         
-        <!-- Footer -->
         <footer class="text-center mt-16 md:mt-24 text-slate-500 space-x-4">
             <span>#H2YOFuel</span>
             <span>#MadeInLatvia</span>
         </footer>
 
     </div>
-
-    <!-- Feedback Button -->
+    
     <button id="feedback-button" class="fixed bottom-5 right-5 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-full px-4 py-3 shadow-lg transition-transform transform hover:scale-105 flex items-center gap-2">
         <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
         <span>Rate Your Drink</span>
     </button>
-
-    <!-- Feedback Modal -->
     <div id="feedback-modal" class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center p-4 hidden">
-        <div id="feedback-content" class="glassmorphism rounded-2xl p-8 w-full max-w-md text-center transform transition-all scale-95 opacity-0">
+        <div id="feedback-content" class="dialogue-bubble rounded-2xl p-8 w-full max-w-md text-center transform transition-all scale-95 opacity-0">
             <h2 class="text-2xl font-bold mb-4">How was your experience?</h2>
             <div id="star-container" class="star-rating flex justify-center gap-2 text-4xl text-gray-500 mb-6">
-                <!-- Stars will be dynamically colored with JS -->
-                <svg data-value="1" class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
-                <svg data-value="2" class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
-                <svg data-value="3" class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
-                <svg data-value="4" class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
-                <svg data-value="5" class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <svg data-value="1" class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <svg data-value="2" class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <svg data-value="3" class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <svg data-value="4" class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <svg data-value="5" class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
             </div>
             <div id="feedback-thanks" class="hidden">
                  <p class="text-xl font-semibold text-green-400">Thanks for your feedback!</p>
             </div>
             <button id="close-modal-button" class="absolute top-4 right-4 text-slate-400 hover:text-white">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
             </button>
         </div>
     </div>
@@ -239,7 +169,7 @@
                 feedbackContent.classList.add('scale-95', 'opacity-0');
                 setTimeout(() => {
                     feedbackModal.classList.add('hidden');
-                    // Reset modal state after closing
+                    // Reset modal state
                     setTimeout(() => {
                         starContainer.classList.remove('hidden');
                         thanksMessage.classList.add('hidden');
@@ -277,14 +207,9 @@
 
                 star.addEventListener('click', () => {
                     const rating = star.dataset.value;
-                    // Here you would typically send the rating to a server
                     console.log(`Feedback submitted: ${rating} stars`);
-
-                    // Show thank you message
                     starContainer.classList.add('hidden');
                     thanksMessage.classList.remove('hidden');
-                    
-                    // Close modal after a short delay
                     setTimeout(closeModal, 1500);
                 });
             });
