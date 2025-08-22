@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H2YO at Playtech // Your Perfect Mix</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #2c1328; /* Dark Purple Background */
+            color: #E2E8F0; /* slate-200 */
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #F43F8A, #A78BFA); /* Pink/Magenta Gradient */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .dialogue-bubble {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .logo-white {
+            filter: brightness(0) invert(1);
+        }
+         .answer-bubble {
+            background-color: #F43F8A;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Logos Navigation -->
+    <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+        <img src="assets/h2yo logo.png" alt="H2YO Logo" class="h-8 w-auto logo-white" onerror="this.onerror=null;this.src='https://placehold.co/100x40/2c1328/F43F8A?text=h2yo+logo';">
+        <img src="assets/playtech-logo.png" alt="Playtech Logo" class="h-8 w-auto logo-white" onerror="this.onerror=null;this.src='https://placehold.co/120x40/2c1328/FFFFFF?text=Playtech+logo';">
+    </nav>
+
+    <div class="container mx-auto px-4 py-8 md:py-12">
+
+        <header class="text-center mb-16">
+            <h1 class="text-4xl md:text-6xl font-black tracking-tighter">
+                Do you care what you put in your body?
+            </h1>
+            <h2 class="text-2xl md:text-3xl font-bold mt-4 gradient-text">We do. That's why we created H2YO.</h2>
+            <p class="text-lg text-slate-300 max-w-3xl mx-auto mt-6">The vending machine is full of sugar, artificial ingredients, and single-use plastic. We believe there's a better way to stay energized and hydrated. A way that gives you full control, with clean ingredients you can trust.</p>
+        </header>
+
+        <!-- Features Section -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <!-- Feature 1: Clean Ingredients -->
+            <div class="dialogue-bubble rounded-2xl p-6">
+                <h3 class="text-2xl font-bold text-pink-400">Clean Ingredients Only</h3>
+                <p class="mt-2 text-slate-300">Full-flavor natural sodas made with real botanicals and zero sugar. We use NEOSWEET®, a natural sweetener that prevents cravings. No artificial junk, ever.</p>
+            </div>
+            <!-- Feature 2: Smart Energy -->
+            <div class="dialogue-bubble rounded-2xl p-6">
+                <h3 class="text-2xl font-bold text-cyan-400">Smart, Stable Energy</h3>
+                <p class="mt-2 text-slate-300">Choose a micro-dose of caffeine for a smooth, steady lift without the jitters or the crash. Stay sharp during your shift and still enjoy a good night's sleep.</p>
+            </div>
+            <!-- Feature 3: You're in Control -->
+            <div class="dialogue-bubble rounded-2xl p-6 md:col-span-2 lg:col-span-1">
+                <h3 class="text-2xl font-bold text-lime-400">You're in Control</h3>
+                <p class="mt-2 text-slate-300">Make it yours. Adjust the flavor, add functional vitamins (like C, D, K, & Zinc), and choose still, cold, or sparkling water for every single drink.</p>
+            </div>
+        </div>
+
+        <!-- Call to Action -->
+        <section class="text-center mt-20">
+            <h2 class="text-3xl font-bold">Ready to Mix Your Own?</h2>
+            <p class="text-slate-400 mt-2">Create an account, top up your YoCoins, and discover your perfect drink.</p>
+            <a href="#faq" class="mt-8 inline-block bg-[#F43F8A] hover:bg-pink-600 text-white font-semibold rounded-full px-6 py-3 shadow-lg transition-transform transform hover:scale-105">
+                See How It Works (FAQ)
+            </a>
+        </section>
+
+
+        <!-- FAQ Section -->
+        <section id="faq" class="mt-16 md:mt-24 max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-8">The Details // How It Works</h2>
+            <div class="space-y-8">
+                 
+                <!-- Q&A 1: Smartdose -->
+                <div class="flex items-start gap-4">
+                    <img src="assets/lukas-avatar.png" alt="Lukas the Presenter" class="w-20 h-20 rounded-full border-2 border-lime-400 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/80x80/65A30D/FFFFFF?text=L';">
+                    <div class="flex-1">
+                        <p class="font-semibold text-lime-300 text-lg">"How does the energy boost work without making me jittery?"</p>
+                        <div class="answer-bubble text-base rounded-lg p-3 mt-2">
+                            <p><strong>It's all about microdosing.</strong> Instead of a huge caffeine hit, SMARTDOSE™ gives you a small, smart 10-15mg dose for stable energy. All focus, no crash, and it won't mess with your sleep.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Q&A 2: Vitamins -->
+                <div class="flex items-start gap-4 flex-row-reverse">
+                    <img src="assets/anna-avatar.png" alt="Anna the Croupier" class="w-20 h-20 rounded-full border-2 border-cyan-400 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/80x80/0891B2/FFFFFF?text=A';">
+                    <div class="flex-1">
+                        <p class="font-semibold text-cyan-300 text-lg text-right">"Can I get too many vitamins?"</p>
+                        <div class="answer-bubble text-base rounded-lg p-3 mt-2">
+                            <p><strong>Nope, we've got you covered.</strong> The doses are carefully calibrated to be safe for daily use. Your body just flushes out any extra Vitamin C, and the others are well within healthy limits.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Q&A 3: Sweetener -->
+                 <div class="flex items-start gap-4">
+                    <img src="assets/priya-avatar.png" alt="Priya the Shift Manager" class="w-20 h-20 rounded-full border-2 border-pink-400 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/80x80/EC4899/FFFFFF?text=P';">
+                    <div class="flex-1">
+                        <p class="font-semibold text-pink-300 text-lg">"What's the deal with the sweetener?"</p>
+                        <div class="answer-bubble text-base rounded-lg p-3 mt-2">
+                            <p><strong>It's all-natural.</strong> NEOSWEET® uses xylitol and stevia for a clean taste that doesn't spike your blood sugar or trigger more cravings like artificial sweeteners can. Zero artificial junk.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        
+        <footer class="text-center mt-16 md:mt-24 text-slate-500 space-x-4">
+            <span>#H2YOFuel</span>
+            <span>#MadeInLatvia</span>
+        </footer>
+
+    </div>
+    
+    <!-- Feedback button and modal -->
+    <button id="feedback-button" class="fixed bottom-5 right-5 bg-[#F43F8A] hover:bg-pink-600 text-white font-semibold rounded-full px-4 py-3 shadow-lg transition-transform transform hover:scale-105 flex items-center gap-2">
+        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+        <span>Rate Your Drink</span>
+    </button>
+    <div id="feedback-modal" class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center p-4 hidden">
+        <div id="feedback-content" class="dialogue-bubble rounded-2xl p-8 w-full max-w-md text-center transform transition-all scale-95 opacity-0">
+            <h2 class="text-2xl font-bold mb-4">How was your experience?</h2>
+            <div id="star-container" class="star-rating flex justify-center gap-2 text-4xl text-gray-500 mb-6">
+                <svg data-value="1" class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <svg data-value="2" class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <svg data-value="3" class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <svg data-value="4" class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                <svg data-value="5" class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+            </div>
+            <div id="feedback-thanks" class="hidden">
+                 <p class="text-xl font-semibold text-green-400">Thanks for your feedback!</p>
+            </div>
+            <button id="close-modal-button" class="absolute top-4 right-4 text-slate-400 hover:text-white">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Feedback Modal Logic
+            const feedbackButton = document.getElementById('feedback-button');
+            const feedbackModal = document.getElementById('feedback-modal');
+            const feedbackContent = document.getElementById('feedback-content');
+            const closeModalButton = document.getElementById('close-modal-button');
+            const starContainer = document.getElementById('star-container');
+            const stars = starContainer.querySelectorAll('svg');
+            const thanksMessage = document.getElementById('feedback-thanks');
+
+            const openModal = () => {
+                feedbackModal.classList.remove('hidden');
+                setTimeout(() => {
+                    feedbackContent.classList.remove('scale-95', 'opacity-0');
+                }, 10);
+            };
+
+            const closeModal = () => {
+                feedbackContent.classList.add('scale-95', 'opacity-0');
+                setTimeout(() => {
+                    feedbackModal.classList.add('hidden');
+                    // Reset modal state
+                    setTimeout(() => {
+                        starContainer.classList.remove('hidden');
+                        thanksMessage.classList.add('hidden');
+                        resetStars();
+                    }, 300);
+                }, 200);
+            };
+            
+            const resetStars = () => {
+                stars.forEach(s => {
+                    s.classList.remove('text-yellow-400');
+                    s.classList.add('text-gray-500');
+                });
+            };
+
+            feedbackButton.addEventListener('click', openModal);
+            closeModalButton.addEventListener('click', closeModal);
+            feedbackModal.addEventListener('click', (e) => {
+                if (e.target === feedbackModal) {
+                    closeModal();
+                }
+            });
+
+            // Star Rating Logic
+            stars.forEach(star => {
+                star.addEventListener('mouseover', () => {
+                    const rating = star.dataset.value;
+                    stars.forEach(s => {
+                        s.classList.toggle('text-yellow-400', s.dataset.value <= rating);
+                        s.classList.toggle('text-gray-500', s.dataset.value > rating);
+                    });
+                });
+
+                star.addEventListener('mouseout', resetStars);
+
+                star.addEventListener('click', () => {
+                    const rating = star.dataset.value;
+                    console.log(`Feedback submitted: ${rating} stars`);
+                    starContainer.classList.add('hidden');
+                    thanksMessage.classList.remove('hidden');
+                    setTimeout(closeModal, 1500);
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
